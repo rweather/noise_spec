@@ -43,7 +43,7 @@ the shared secret.
 
 The name of the algorithm shall be `Kyber`.
 
-In this definition, we use the function names from the `kyber.h` file
+In this definition, we use the function names from the `kem.c` file
 in the reference implementation of Kyber [2]:
 
  * `crypto_kem_keypair()` returns the 1088-byte public and 1248-byte private
